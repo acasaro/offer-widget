@@ -1,0 +1,132 @@
+@import 'mixins';
+
+.button {
+  -moz-appearance: none;
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Frutiger';
+  font-size: 1em;
+  letter-spacing: 0px;
+  line-height: 1;
+  outline: medium none;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  transition-duration: 0.3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  vertical-align: middle;
+  font-weight: 400;
+  touch-action: manipulation;
+  white-space: nowrap;
+  user-select: none;
+
+  @include bp(md) {
+    white-space: normal;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+
+  &.button-primary {
+    background: $primary-color;
+    border-color: $primary-color;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    font-weight: bold;
+
+    @include bp(md) {
+      padding: 10px 30px;
+      width: auto;
+    }
+
+    &:hover {
+      background-color: #00396c;
+      border-color: #00396c;
+    }
+  }
+
+  &.button-outline {
+    background: #fff;
+    border-color: $primary-color;
+    color: $primary-color;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  &.button-circle {
+    height: 18px;
+    width: 18px;
+    background: #3966b5;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 0.75rem;
+
+    > span {
+      font-family: serif;
+      font-style: normal;
+      font-weight: bold;
+      color: #fff;
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+  }
+
+  &.button-close {
+    background: #316bbe none repeat scroll 0 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    text-decoration: none;
+    top: 14px;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -moz-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -ms-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    -o-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+    padding: 0;
+    margin: 0;
+
+    &::after {
+      color: #ffffff;
+      content: '\f00d';
+      display: inline-block;
+      font-family: 'FontAwesome';
+      font-size: 1rem;
+      line-height: 1;
+      margin-top: 0.125rem;
+      text-align: center;
+    }
+  }
+}

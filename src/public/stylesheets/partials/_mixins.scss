@@ -1,0 +1,37 @@
+// Breakpoints
+$breakpoints: (
+  "sm": 415px,
+  "md": 850px,
+  "lg": 1025px
+);
+
+/*
+ * Breakpoints mixin. Makes media queries easier.
+ */
+@mixin bp( $point, $type: min, $media: screen ) {
+  // Look in the keys first
+  @if map-has-key( $breakpoints, $point ) {
+    @if $type == max {
+      @media only #{$media} and (max-width: #{inspect( map-get( $breakpoints, $point ) )}) {
+        @content;
+      }
+    } @else if $type == min {
+      @media only #{$media} and (min-width: #{inspect( map-get( $breakpoints, $point ) )}) {
+        @content;
+      }
+    }
+  }
+  // Fallback to a 'manual' breakpoint.
+  // Check to make sure that it is a number and has a unit (px, em).
+  @else if type-of( $point ) == number and not unitless( $point ) {
+    @if $type == max {
+      @media only #{$media} and (max-width: #{$point}) {
+        @content;
+      }
+    } @else if $type == min {
+      @media only #{$media} and (min-width: #{$point}) {
+        @content;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Analytics link component should correctly render a component 1`] = `
+<AnalyticsLink>
+  <a
+    alt={undefined}
+    aria-controls={undefined}
+    aria-expanded={undefined}
+    aria-label={undefined}
+    className={undefined}
+    href="#"
+    id={undefined}
+    onBlur={undefined}
+    onClick={[Function]}
+    onFocus={undefined}
+    onMouseEnter={undefined}
+    onMouseLeave={undefined}
+    role={undefined}
+    style={undefined}
+    target={undefined}
+  />
+</AnalyticsLink>
+`;

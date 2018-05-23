@@ -1,0 +1,19 @@
+.card {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  border-color: #e9e8e8;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+  border-bottom: 3px solid #b1b3b3;
+
+  p {
+    margin: 15px 0;
+  }
+
+  &.card-light {
+    border: 1px solid #e9e8e8;
+    border-bottom: 3px solid #e9e8e8;
+  }
+}

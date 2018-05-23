@@ -1,0 +1,1028 @@
+{
+	"errorMessages": {
+		"services": {
+			"title": "Sorry.",
+			"message":
+				"Sorry \u2013 we\u2019re having some problems. Please try again later.\n"
+		},
+		"rx": {
+			"title": "Sorry.",
+			"message": "Sorry \u2013 an error occurred during loading."
+		},
+		"finance": {
+			"title": "Sorry.",
+			"message": "Sorry \u2013 an error occurred during loading."
+		},
+		"lawwClaims": {
+			"title": "Sorry.",
+			"message": "Sorry \u2013 an error occurred during loading."
+		},
+		"service": {
+			"title": "Sorry.",
+			"message": "Sorry \u2013 an error occurred during loading. {{refresh}}",
+			"tryAgainText": "Retry now"
+		},
+		"eligibility": {
+			"title": "Sorry.",
+			"message": "Sorry - we're having some problems. Please try again later."
+		}
+	},
+	"productSection": {
+		"cap-product": {
+			"altText": "OptumBank",
+			"useSSO1": true,
+			"logo":
+				"/content/dam/OptumDashboard/ad-box/logos/OptumBank_frontdoor.png",
+			"ctaText": "Visit Optum Bank",
+			"public": {
+				"openNewWindow": true,
+				"ctaLink": "https://stg-login.optumbank.com",
+				"linkIcon": "newTab"
+			},
+			"secure": {
+				"openNewWindow": true,
+				"ctaLink": "https://stg-login.optumbank.com/CAP/Portlets/login.jsf",
+				"linkIcon": "newTab"
+			}
+		},
+		"rx-product": {
+			"altText": "Optum Rx",
+			"logo": "/content/dam/OptumDashboard/ad-box/logos/Optum-RX-frontdoor.jpg",
+			"ctaText": "Visit Optum Rx",
+			"public": {
+				"openNewWindow": true,
+				"ctaLink": "https://chp-stage.optumrx.com",
+				"linkIcon": "newTab"
+			},
+			"secure": {
+				"openNewWindow": true,
+				"ctaLink": "https://chp-stage.optumrx.com/secure/my-medicine-cabinet",
+				"linkIcon": "newTab"
+			}
+		},
+		"laww-product": {
+			"textLogo": "Live and Work Well",
+			"altText": "Live and Work Well",
+			"ctaText": "Visit Live and Work Well",
+			"public": {
+				"ctaLink":
+					"https://sr-smsc-stg.liveandworkwell.com/content/en/public.html",
+				"linkIcon": "caret"
+			},
+			"secure": {
+				"ctaLink":
+					"https://sr-smsc-stg.liveandworkwell.com/content/en/member.html",
+				"linkIcon": "caret"
+			}
+		}
+	},
+	"hero": {
+		"secure": {
+			"imageSource":
+				"/content/dam/OptumDashboard/hero_img/MainImage_GirlsSmiling.jpg",
+			"headline": {
+				"line1": "Hello, {{firstName}}.",
+				"line2": "Here's your snapshot for today."
+			}
+		},
+		"public": {
+			"imageSource":
+				"/content/dam/OptumDashboard/hero_img/welcome_myoptum_unauth.jpg",
+			"headline": {
+				"line1": "Welcome.",
+				"line2": "Helping you live a healthier life.",
+				"line3": "Sign in by selecting an option below."
+			}
+		}
+	},
+	"snapshots": {
+		"rx": {
+			"icon": "icon-pharmacy",
+			"color": "CE4D05",
+			"order": "1",
+			"title": "Prescriptions to refill/renew",
+			"sectionOverride": "top"
+		},
+		"wcp": {
+			"icon": "icon-advocacy",
+			"color": "E87722",
+			"order": "2",
+			"title": "Enroll in Wellness Coaching Programs",
+			"title-enroll": "Enrolled in",
+			"sectionOverride": "top"
+		},
+		"finance": {
+			"icon": "icon-finances",
+			"color": "E87722",
+			"order": "3",
+			"title": "Available balance in your",
+			"sectionOverride": "top"
+		},
+		"claims": {
+			"icon": "icon-document",
+			"color": "E87722",
+			"order": "4",
+			"title": "Mental health claims",
+			"sectionOverride": "top"
+		},
+		"laww": {
+			"icon": "icon-health",
+			"color": "CE4D05",
+			"order": "5",
+			"title": "View top healthy mind & body topics",
+			"sectionOverride": "bottom"
+		},
+		"clinicianSearch": {
+			"openNewWindow": true,
+			"icon": "icon-search",
+			"link": "https://sr-smsc-stg.liveandworkwell.com/services/providerSearch",
+			"color": "E87722",
+			"order": "6",
+			"title": "Find a mental health provider",
+			"sectionOverride": "top",
+			"linkIcon": "newTab"
+		},
+		"healthTopics": {
+			"icon": "icon-health",
+			"color": "CE4D05",
+			"order": "7",
+			"title": "View trending health topics",
+			"sectionOverride": "bottom"
+		}
+	},
+	"offers": {
+		"tellMeMore": {
+			"openNewWindow": true,
+			"title": "View Details",
+			"linkLCA": "https://chp-stage.Optumrx.com/secure/my-medicine-cabinet",
+			"linkRMO": "https://chp-stage.Optumrx.com/secure/my-medicine-cabinet",
+			"linkIcon": "newTab"
+		},
+		"notInterested": {
+			"title": "Not interested",
+			"linkIcon": "noIcon"
+		}
+	},
+	"prescriptions": {
+		"optumLogo":
+			"/content/dam/OptumDashboard/ad-box/logos/Optum-RX-frontdoor.jpg",
+		"iconColor": "E87722",
+		"rxIcon": "icon-pharmacy",
+		"title": "Prescriptions",
+		"logoAlt": "Optum Rx",
+		"modal": {
+			"cta": "Update information",
+			"title": "Check for prescription updates.",
+			"content":
+				"We see you went to OptumRx for your prescriptions. Let's check for the latest information."
+		},
+		"refillRenew": {
+			"noRenewText":
+				"You currently have no prescriptions that need to be renewed.",
+			"showTooltip": "true",
+			"iconType": "newTab",
+			"renewTextTwo":
+				"Request a renewal online and we'll coordinate this with your doctor.",
+			"buttonUrl": "https://chp-stage.optumrx.com/secure/my-medicine-cabinet",
+			"title": "Home delivery prescriptions to refill and renew",
+			"renewTooltip":
+				"You may not be able to renew a prescription until your most recent order has been delivered.",
+			"buttonText": "Go to My Medicine Cabinet",
+			"refillText": "of your prescriptions can be refilled.",
+			"buttonNewTab": "true",
+			"linkIcon": "newTab",
+			"noRefillRenewText":
+				"You currently have no prescriptions that need to be refilled or renewed.",
+			"renewText": "of your prescriptions expired or ran out of refills. ",
+			"noRefillText":
+				"You currently have no prescriptions that need to be refilled."
+		},
+		"pharmacyBenefit": {
+			"buttonUrl":
+				"https://chp-stage.optumrx.com/secure/member-tools/drug-pricing",
+			"title": "Make the most of your pharmacy benefit",
+			"buttonText": "View pricing options",
+			"buttonNewTab": true,
+			"linkIcon": "newTab",
+			"bodyText":
+				"With our easy-to-use tools, you'll get the info you need to find the right drug and pricing options for you."
+		},
+		"switchToHome": {
+			"transferTextPlural": "{{number}} prescriptions for the past 6 months",
+			"title": "Switch to home delivery",
+			"linkUrl": "https://bcove.video/2B7OudB",
+			"newTabVideo": "true",
+			"transferTextSingular": "1 prescription for the past 6 months",
+			"linkIcon": "video",
+			"linkText": "Learn more about home delivery",
+			"bodyText":
+				" it looks like you could save time and money by enrolling some of your prescriptions in home delivery",
+			"mediaType": "link"
+		},
+		"callToAction": {
+			"ctaNewTab": true,
+			"buttonUrl": "https://chp-stage.optumrx.com/secure/my-medicine-cabinet",
+			"ctaLinksTitle": "Prescriptions Related",
+			"buttonText": "View your prescription details",
+			"buttonNewTab": "true",
+			"linkIcon": "newTab",
+			"buttonLinkIcon": "newTab",
+			"ctaLinks": {
+				"link1": {
+					"openNewWindow": true,
+					"link":
+						"https://chp-stage.optumrx.com/secure/member-tools/pharmacy-locator",
+					"text": "Locate a pharmacy",
+					"linkIcon": "newTab"
+				}
+			}
+		}
+	},
+	"finance": {
+		"iconColor": "E87722",
+		"cta_new_window": "true",
+		"ctaButton": "View account details",
+		"ctaHeader": "Account related",
+		"icon": "icon-finances",
+		"logo": "/content/dam/OptumDashboard/ad-box/logos/OptumBank_270px.png",
+		"title": "Account Balances",
+		"select_list": "newTab",
+		"logoAlt": "OptumBankFDIC",
+		"linkIcon": "newTab",
+		"dropdownLabel": "View account",
+		"blucta_url_bank":
+			"https://stg-login.optumbank.com/CAP/Portlets/sso_login.jsf",
+		"image": {},
+		"cap": {
+			"hsa": {
+				"cashBalanceAmount": {
+					"tooltip":
+						"Your account balance as of the close of the prior business day.",
+					"title": "Current balance"
+				},
+				"yourBalance": {
+					"tooltip":
+						"The amount of HSA funds available to you.  This amount reflects transactions recorded to your account today, including deposits, posted checks, and payments or withdrawals made with our HSA debit card.  Your available balance amount may differ from your current balance amount if there are pending transactions.  NOTE: Some transactions may not be recorded immediately, and may not be reflected in your available balance.",
+					"title": "Available balance"
+				},
+				"investmentBalanceAmount": {
+					"tooltip":
+						"The amount of funds in your investments account(s) as of the last available information.  This includes invested funds and earnings or losses.",
+					"title": "Investment balance"
+				}
+			},
+			"fsa": {
+				"Dc": {
+					"electionAmount": {
+						"tooltip":
+							"The total amount you have elected to contribute to your FSA via payroll deduction",
+						"title": "Election amount"
+					},
+					"contributionAmount": {
+						"tooltip":
+							"The amount you have contributed into your FSA via payroll deduction Year-to-Date including any applicable employer contributions ",
+						"title": "Contributions YTD"
+					},
+					"totalReimbursements": {
+						"tooltip":
+							"The amount of reimbursements you have received from your FSA Year-to-Date",
+						"title": "Total reimbursements"
+					},
+					"availableBalance": {
+						"tooltip":
+							"Your available balance reflects the funds available for reimbursement requests made at this time including any applicable employer contributions",
+						"title": "Available balance"
+					}
+				},
+				"Hc": {
+					"electionAmount": {
+						"tooltip":
+							"The total amount you have elected to contribute to your FSA via payroll deduction",
+						"title": "Election amount"
+					},
+					"employerContributionAmount": {
+						"tooltip":
+							"The amount you have contributed into your FSA via payroll deduction Year-to-Date including any applicable carryover and/or employer contributions",
+						"title": "Contributions YTD"
+					},
+					"totalReimbursements": {
+						"tooltip":
+							"The amount of reimbursements you have received from your FSA Year-to-Date",
+						"title": "Total reimbursements"
+					},
+					"availableBalance": {
+						"tooltip":
+							"Your available balance reflects the funds available for reimbursement requests made at this time including any applicable carryover and/or employer contributions",
+						"title": "Available balance"
+					}
+				}
+			},
+			"hra": {
+				"eligibleAmount": {
+					"tooltip":
+						"The total amount your employer has elected to contribute into your HRA for the plan year",
+					"title": "Eligible amount"
+				},
+				"contributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your HRA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"employerContributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your HRA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"totalReimbursements": {
+					"tooltip":
+						"The amount of reimbursements you have received from your HRA Year-to-Date",
+					"title": ["Total reimbursements"]
+				},
+				"availableBalance": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time",
+					"title": "Available balance"
+				}
+			},
+			"hia": {
+				"eligibleAmount": {
+					"tooltip":
+						"The total amount you are eligible for with your employer's Wellness program for the plan year",
+					"title": "Eligible amount"
+				},
+				"employerContributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your HIA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"totalReimbursements": {
+					"tooltip":
+						"The amount of reimbursements you have received from your HIA Year-to-Date",
+					"title": "Total reimbursements"
+				},
+				"availableBalance": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time",
+					"title": "Available balance"
+				},
+				"col2": {
+					"tooltip":
+						"The amount of reimbursements you have received from your HIA Year-to-Date"
+				}
+			},
+			"rmsa": {
+				"employerContributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your RMSA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"availableBalance": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time",
+					"title": "Available balance"
+				}
+			}
+		},
+		"ev1": {
+			"hsa": {
+				"cashBalanceAmount": {
+					"tooltip":
+						"Your account balance as of the close of the prior business day.",
+					"title": "Current balance"
+				},
+				"yourBalance": {
+					"tooltip":
+						"The amount of HSA funds available to you.  This amount reflects transactions recorded to your account today, including deposits, posted checks, and payments or withdrawals made with our HSA debit card.  Your available balance amount may differ from your current balance amount if there are pending transactions.  NOTE: Some transactions may not be recorded immediately, and may not be reflected in your available balance.",
+					"title": "Available balance"
+				},
+				"investmentBalanceAmount": {
+					"tooltip":
+						"The amount of funds in your investments account(s) as of the last available information.  This includes invested funds and earnings or losses.",
+					"title": "Investment balance"
+				}
+			},
+			"fsa": {
+				"Hc": {
+					"electionAmount": {
+						"tooltip":
+							"The total amount you have elected to contribute to your FSA via payroll deduction",
+						"title": "Election amount"
+					},
+					"contributionAmount": {
+						"tooltip":
+							"The amount you have contributed into your FSA via payroll deduction Year-to-Date including any applicable carryover and/or employer contributions.",
+						"title": "Contributions YTD"
+					},
+					"totalReimbursements": {
+						"tooltip":
+							"The amount of reimbursements you have received from your FSA Year-to-Date",
+						"title": "Total reimbursements"
+					},
+					"availableBalance": {
+						"tooltip":
+							"Your available balance reflects the funds available for reimbursement requests made at this time",
+						"title": "Available balance"
+					}
+				},
+				"Dc": {
+					"electionAmount": {
+						"tooltip":
+							"The total amount you have elected to contribute to your FSA via payroll deduction",
+						"title": "Election amount"
+					},
+					"contributionAmount": {
+						"tooltip":
+							"The amount you have contributed into your FSA via payroll deduction Year-to-Date including any employer contributions.",
+						"title": "Contributions YTD"
+					},
+					"totalReimbursements": {
+						"tooltip":
+							"The amount of reimbursements you have received from your FSA Year-to-Date",
+						"title": "Total reimbursements"
+					},
+					"availableBalance": {
+						"tooltip":
+							"Your available balance reflects the funds available for reimbursement requests made at this time including any applicable employer contributions.",
+						"title": "Available balance"
+					}
+				}
+			},
+			"hra": {
+				"eligibleAmount": {
+					"tooltip":
+						"The total amount your employer has elected to contribute into your HRA for the plan year",
+					"title": "Eligible amount"
+				},
+				"contributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your HRA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"employerContributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your HRA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"totalReimbursements": {
+					"tooltip":
+						"The amount of reimbursements you have received from your HRA Year-to-Date",
+					"title": "Total reimbursements"
+				},
+				"availableBalance": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time",
+					"title": "Available balance"
+				}
+			},
+			"hia": {
+				"eligibleAmount": {
+					"tooltip":
+						"The total amount you are eligible for with your employer's Wellness program for the plan year",
+					"title": "Eligible amount"
+				},
+				"employerContributionAmount": {
+					"tooltip":
+						"The amount your employer has contributed into your HIA Year-to-Date",
+					"title": "Contributions YTD"
+				},
+				"totalReimbursements": {
+					"tooltip":
+						"The amount of reimbursements you have received from your HIA Year-to-Date",
+					"title": "Total reimbursements"
+				},
+				"availableBalance": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time",
+					"title": "Available balance"
+				}
+			}
+		},
+		"all": {
+			"rra": {
+				"eligibleAmount": {
+					"title": "Eligible amount"
+				},
+				"employerContributionAmount": {
+					"title": "Contribution amount"
+				},
+				"totalReimbursements": {
+					"title": "Total reimbursements"
+				},
+				"availableBalance": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time.",
+					"title": "Available balance"
+				}
+			}
+		},
+		"modal": {
+			"cta": "Update information",
+			"title": "Check for financial updates.",
+			"content":
+				"We see you went to view your financial information. Let's check for the latest information."
+		},
+		"cta": {
+			"link1": {
+				"text": "Account balance",
+				"linkIcon": "newTab"
+			}
+		},
+		"hsa": {
+			"col1": {
+				"tooltip":
+					"Your account balance as of the close of the prior business day.",
+				"title": "Current Balance"
+			},
+			"col2": {
+				"tooltip":
+					"The amount of HSA funds available to you.  This amount reflects transactions recorded to your account today, including deposits, posted checks, and payments or withdrawals made with our HSA debit card.  Your available balance amount may differ from your current balance amount if there are pending transactions.  NOTE: Some transactions may not be recorded immediately, and may not be reflected in your available balance.",
+				"title": "Available Balance"
+			},
+			"col3": {
+				"tooltip":
+					"The amount of funds in your investments account(s) as of the last available information.  This includes invested funds and earnings or losses.",
+				"title": "Investment Balance"
+			}
+		},
+		"fsa": {
+			"Dc": {
+				"col1": {
+					"tooltip":
+						"The total amount you have elected to contribute to your FSA via payroll deduction",
+					"title": "Election amount"
+				},
+				"col2": {
+					"tooltip":
+						"The amount you have contributed into your FSA via payroll deduction Year-to-Date including any applicable employer contributions ",
+					"title": "Contributions YTD"
+				},
+				"col3": {
+					"tooltip":
+						"The amount of reimbursements you have received from your FSA Year-to-Date",
+					"title": "Total reimbursements"
+				},
+				"col4": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time including any applicable employer contributions",
+					"title": "Available balance"
+				}
+			},
+			"Hc": {
+				"col1": {
+					"tooltip":
+						"The total amount you have elected to contribute to your FSA via payroll deduction",
+					"title": "Election amount"
+				},
+				"col2": {
+					"tooltip":
+						"The amount you have contributed into your FSA via payroll deduction Year-to-Date including any applicable carryover and/or employer contributions",
+					"title": "Contributions YTD"
+				},
+				"col3": {
+					"tooltip":
+						"The amount of reimbursements you have received from your FSA Year-to-Date",
+					"title": "Total reimbursements"
+				},
+				"col4": {
+					"tooltip":
+						"Your available balance reflects the funds available for reimbursement requests made at this time including any applicable carryover and/or employer contributions",
+					"title": "Available balance"
+				}
+			}
+		},
+		"hra": {
+			"col1": {
+				"tooltip":
+					"The total amount your employer has elected to contribute into your HRA for the plan year",
+				"title": "Eligible amount"
+			},
+			"col2": {
+				"tooltip":
+					"The amount your employer has contributed into your HRA Year-to-Date",
+				"title": "Contributions YTD"
+			},
+			"col3": {
+				"tooltip":
+					"The amount of reimbursements you have received from your HRA Year-to-Date",
+				"title": "Total reimbursements"
+			},
+			"col4": {
+				"tooltip":
+					"Your available balance reflects the funds available for reimbursement requests made at this time",
+				"title": "Available balance"
+			}
+		},
+		"hia": {
+			"col1": {
+				"tooltip":
+					"The total amount you are eligible for with your employer's Wellness program for the plan year",
+				"title": "Eligible amount"
+			},
+			"col2": {
+				"title": "Contributions YTD"
+			},
+			"col3": {
+				"tooltip":
+					"The amount of reimbursements you have received from your HIA Year-to-Date",
+				"title": "Total reimbursements"
+			},
+			"col4": {
+				"tooltip":
+					"Your available balance reflects the funds available for reimbursement requests made at this time",
+				"title": "Available balance"
+			}
+		},
+		"rmsa": {
+			"col1": {
+				"tooltip":
+					"Your available balance reflects the funds available for reimbursement requests made at this time",
+				"title": "Available balance"
+			}
+		},
+		"rra": {
+			"col1": {
+				"tooltip":
+					"Your available balance reflects the funds available for reimbursement requests made at this time.",
+				"title": "Available balance "
+			}
+		}
+	},
+	"mindAndBody": {
+		"linkTitle": "Visit Live and Work Well",
+		"newTab": "_top",
+		"title": "Top topics for healthy mind & body",
+		"linkUrl": "https://sr-smsc-stg.liveandworkwell.com/content/en/member.html",
+		"linkIcon": "caret",
+		"cards": {
+			"column1": {
+				"summary":
+					"Creating a joyful and mutually-satisfying relationship that will stand the test of time requires communication, commitment, ",
+				"readMoreText": "Learn about committed relationships",
+				"newTab": "_top",
+				"link":
+					"https://sr-smsc-stg.liveandworkwell.com/en/member/life-work/relationships/committed-relationships.html",
+				"image":
+					"/content/dam/OptumDashboard/LAWW_Articles/Relationships_200.png",
+				"title": "Committed Relationships",
+				"content":
+					"Creating a joyful and mutually-satisfying relationship that will stand the test of time requires communication, commitment, and a pinch of humor. Explore how a couple can overcome relationship hurdles and savor the golden moments.",
+				"linkIcon": "caret"
+			},
+			"column2": {
+				"summary":
+					"Sleep plays a critical role in your health. Too little sleep affects reaction times, memory, and emotions. Marked increases in the need for sleep",
+				"readMoreText": "Learn about sleep",
+				"newTab": "_top",
+				"link":
+					"https://sr-smsc-stg.liveandworkwell.com/en/member/life-work/well-being/sleep.html",
+				"image": "/content/dam/OptumDashboard/LAWW_Articles/Sleep_200.png",
+				"title": "Sleep",
+				"content":
+					"Sleep plays a critical role in your health. Too little sleep affects reaction times, memory, and emotions. Marked increases in the need for sleep or persistent drowsiness can be a symptom of other health problems. Learn more about sleep \u2013 how much you need and how it allows your brain to function better.",
+				"linkIcon": "caret"
+			},
+			"column3": {
+				"summary":
+					"Mindfulness helps us to stay in the present and keeps us calm enough to practice good decision-making. Being mindful takes you off ",
+				"readMoreText": "Learn about mindfulness",
+				"newTab": "_top",
+				"link":
+					"https://sr-smsc-stg.liveandworkwell.com/content/en/member/life-work/well-being/mindfulness.html",
+				"image":
+					"/content/dam/OptumDashboard/LAWW_Articles/Mindfulness_200.png",
+				"title": "Mindfulness",
+				"content":
+					"Mindfulness helps us to stay in the present and keeps us calm enough to practice good decision-making. Being mindful takes you off autopilot to notice new things with greater enthusiasm. Learn ways to practice mindfulness daily though meditation, breathing techniques, listening carefully and engaging.",
+				"linkIcon": "caret"
+			},
+			"column4": {
+				"summary":
+					"Stress is a physical and psychological response to a demand, a threat, or some kind of problem that requires a solution. It stimulates you ",
+				"readMoreText": "Learn about stress",
+				"newTab": "_top",
+				"link":
+					"https://sr-smsc-stg.liveandworkwell.com/en/member/mind-body/mental-health/stress.html",
+				"image": "/content/dam/OptumDashboard/LAWW_Articles/Stress_200.png",
+				"title": "Stress",
+				"content":
+					"Stress is a physical and psychological response to a demand, a threat, or some kind of problem that requires a solution. It stimulates you and increases your level of awareness. The body's reaction to stress is called the \"fight or flight\" response. These responses occur whether the stress is positive or negative.",
+				"linkIcon": "caret"
+			}
+		}
+	},
+	"laww": {
+		"claims": {
+			"iconColor": "E87722",
+			"icon": "icon-document",
+			"title": "Mental Health Claims",
+			"clippedClaimText":
+				"5 of {{number}} most recent claims for the past 12 months",
+			"onDateText": "on {{date}}",
+			"noClaimsText":
+				"You currently don't have any claims from the past 12 months.",
+			"singleClaimText": "1 claim for the past 12 months",
+			"mayOweText": "You may owe {{amount}}",
+			"multipleClaimText": "{{number}} claims for the past 12 months",
+			"claimsRelated": {
+				"alternateTitle": "Mental health related",
+				"title": "Mental health related",
+				"links": {
+					"provider": {
+						"openNewWindow": true,
+						"link":
+							"https://sr-smsc-stg.liveandworkwell.com/services/providerSearch",
+						"text": "Find a mental health provider",
+						"linkIcon": "newTab"
+					},
+					"claim": {
+						"link":
+							"https://sr-smsc-stg.liveandworkwell.com/content/en/member/secure/claims.html#!/submit-claim",
+						"text": "Submit an out-of-network mental health claim",
+						"linkIcon": "caret"
+					},
+					"coverage": {
+						"link":
+							"https://sr-smsc-stg.liveandworkwell.com/en/member/secure/claims.html#!/eligibilitysummary",
+						"text": "View mental health coverage details",
+						"linkIcon": "caret"
+					}
+				}
+			},
+			"cta": {
+				"link":
+					"https://sr-smsc-stg.liveandworkwell.com/content/en/member/secure/claims.html#!/view-claim-status",
+				"text": "View all mental health claims",
+				"linkIcon": "caret",
+				"buttonLinkIcon": "noIcon"
+			}
+		}
+	},
+	"healthLibrary": {
+		"linkTitle": "Visit the Health Library",
+		"newTab": "_blank",
+		"openNewWindow": true,
+		"title": "From the Health Library",
+		"linkUrl":
+			"https://cx.optum.com/content/cex-consumer/optum-health-information/en.html",
+		"linkIcon": "newTab",
+		"cards": {
+			"column1": {
+				"summary":
+					"Making healthy food choices, staying active and keeping a healthy weight may help reduce your risk of complications. Read some ways you can take",
+				"readMoreText": "Learn about diet and exercise",
+				"newTab": "_blank",
+				"openNewWindow": true,
+				"link":
+					"https://cx.optum.com/content/cex-consumer/optum-health-information/en/health-topics/diabetes/diet_exercise.html",
+				"image": "/content/dam/OptumDashboard/healthlibrary/diet-exercise.jpg",
+				"title": "Diet & Exercise",
+				"content":
+					"Making healthy food choices, staying active and keeping a healthy weight may help reduce your risk of complications. Read some ways you can take action \u2014 and learn the benefits of incorporating good habits into your life!",
+				"linkIcon": "newTab"
+			},
+			"column2": {
+				"summary":
+					"COPD is a lung condition that makes it hard for air to get in and out. But by taking medications, seeing your doctor regularly and changing your",
+				"readMoreText": "Learn about COPD",
+				"newTab": "_blank",
+				"openNewWindow": true,
+				"link":
+					"https://cx.optum.com/content/cex-consumer/optum-health-information/en/health-topics/COPD.html",
+				"image": "/content/dam/OptumDashboard/healthlibrary/opcd.jpg",
+				"title": "COPD",
+				"content":
+					"COPD is a lung condition that makes it hard for air to get in and out. But by taking medications, seeing your doctor regularly and changing your lifestyle habits, you can help manage it. Learn some simple steps you can take to live better with COPD.",
+				"linkIcon": "newTab"
+			},
+			"column3": {
+				"summary":
+					"Learn the importance of good communication with your doctor \u2014 and read some tips on how to prepare for your next office visit. This includes questions",
+				"readMoreText": "Learn about Questions for Your Doctor",
+				"newTab": "_blank",
+				"openNewWindow": true,
+				"link":
+					"https://cx.optum.com/content/cex-consumer/optum-health-information/en/health-topics/COPD/questions_for_dr.html",
+				"image":
+					"/content/dam/OptumDashboard/healthlibrary/questions-for-dc.jpg",
+				"title": "Questions for Your Doctor",
+				"content":
+					"Learn the importance of good communication with your doctor \u2014 and read some tips on how to prepare for your next office visit. This includes questions to ask if your doctor prescribes medication or wants you to have a test or surgery. Learn all you can, so you can make the most of your doctor visits.",
+				"linkIcon": "newTab"
+			}
+		}
+	},
+	"publicFooter": {
+		"copyright": "©{{year}} Optum, Inc. All rights reserved.",
+		"links": {
+			"link1": {
+				"openNewWindow": true,
+				"link":
+					"https://healthsafeid.optum.com/content/pages/default/TermsOfUse?HTTP_LANGUAGE=EN",
+				"text": "Terms of Use",
+				"buttonNewTab": "true",
+				"linkIcon": "newTab"
+			},
+			"link2": {
+				"openNewWindow": true,
+				"link":
+					"https://healthsafeid.optum.com/content/pages/default/PrivacyPolicy?HTTP_LANGUAGE=EN",
+				"text": "Privacy Policy",
+				"buttonNewTab": "true",
+				"linkIcon": "newTab"
+			},
+			"link3": {
+				"openNewWindow": true,
+				"link": "https://www.optum.com/nondiscrimination.html",
+				"text": "Language Assistance/Non-Discrimination Notice",
+				"buttonNewTab": "true",
+				"linkIcon": "newTab"
+			},
+			"link4": {
+				"openNewWindow": true,
+				"link": "https://www.optum.com/nondiscrimination.html",
+				"text": "Asistencia de Idiomas / Aviso de no Discriminación",
+				"buttonNewTab": "true",
+				"linkIcon": "newTab"
+			},
+			"link5": {
+				"openNewWindow": true,
+				"link": "https://www.optum.com/nondiscrimination.html",
+				"text": "語言協助 / 不歧視通知",
+				"buttonNewTab": "true",
+				"linkIcon": "newTab"
+			}
+		}
+	},
+	"campaigns": {
+		"campaignbox": {
+			"background": "blue",
+			"openNewWindow": true,
+			"order": "2",
+			"content": "Keep moving on your HSA journey.",
+			"linkIcon": "newTab",
+			"logoText": "OptumBank",
+			"cta": {
+				"link": "https://www.optumbank.com",
+				"text": "learn more"
+			},
+			"segments": {
+				"eligibility": "cap",
+				"finance": {
+					"accountType": "HSA"
+				}
+			}
+		},
+		"campaignbox_1": {
+			"background": "orange",
+			"openNewWindow": true,
+			"order": "1",
+			"content": "Get medications delivered right to your door.",
+			"linkIcon": "newTab",
+			"logoText": "OptumRx",
+			"cta": {
+				"link": "https://www.youtube.com/watch?v=QWHhKFKdPWA",
+				"text": "Check it out"
+			},
+			"segments": {
+				"eligibility": "rx"
+			}
+		},
+		"campaignbox_2": {
+			"background": "orange",
+			"openNewWindow": true,
+			"order": "0",
+			"content": "Simplify your life with automatic refills.",
+			"linkIcon": "newTab",
+			"logoText": "OptumRx",
+			"cta": {
+				"link": "https://youtu.be/X7saCaPa81E",
+				"text": "Check it out"
+			},
+			"segments": {
+				"eligibility": "rx"
+			}
+		},
+		"campaignbox_3": {
+			"background": "orange",
+			"openNewWindow": true,
+			"order": "0",
+			"content": "We can help manage your medications online.",
+			"linkIcon": "newTab",
+			"logoText": "OptumRx",
+			"cta": {
+				"link": "https://youtu.be/zAxNhB0rNLY",
+				"text": "Check it out"
+			},
+			"segments": {
+				"eligibility": "rx"
+			}
+		},
+		"campaignbox_4": {
+			"background": "green",
+			"order": "0",
+			"content": "Start living your life.  Recovery options are available. ",
+			"linkIcon": "noIcon",
+			"logoText": "liveandworkwell",
+			"cta": {
+				"link":
+					"https://www.liveandworkwell.com/en/member/mind-body/recovery-resiliency.html",
+				"text": "Find Help"
+			},
+			"segments": {
+				"eligibility": "laww"
+			}
+		}
+	},
+	"wcp": {
+		"title": "Wellness Coaching Program",
+		"icon": "icon-advocacy",
+		"enrolled": {
+			"bodyText": "Enrolled Programs",
+			"startedOnText": "Started on",
+			"buttonUrl": "https://google.com",
+			"buttonLinkIcon": "noIcon",
+			"buttonText": "Continue your program",
+			"openNewWindow": true
+		},
+		"unenrolled": {
+			"bodyText": "Choose the coaching option that best fits your goals"
+		},
+		"callToAction": {
+			"ctaNewTab": true,
+			"buttonText": "View All Programs",
+			"buttonUrl": "https://chp-stage.optumrx.com/secure/my-medicine-cabinet",
+			"ctaLinksTitle": "Wellness Coaching Related",
+			"linkIcon": "newTab",
+			"buttonLinkIcon": "newTab",
+			"ctaLinks": {
+				"link1": {
+					"openNewWindow": true,
+					"link": "https://google.com",
+					"text": "View your profile",
+					"linkIcon": ""
+				}
+			}
+		}
+	},
+	"siteMinder": {
+		"killLinks": {
+			"development": {
+				"uhcWcp":
+					"https://dev1.myuhc.wellnesscoachingnow.com/content/wc/en/login.html",
+				"wcp": "https://dev1.wellnesscoachingnow.com/content/wc/en/login.html",
+				"hsid":
+					"https://healthsafeid-dev2.optum.com/content/en/healthsafeid/public/logout.html",
+				"laww": "https://lawp-smsc-dev2.optum.com/public/login/logoff.asp",
+				"notes":
+					"https://dev-healthenotes.uhc.com/content/healthenotes/en/public/landing.html"
+			},
+			"test": {
+				"uhcWcp":
+					"https://test1.myuhc.wellnesscoachingnow.com/content/wc/en/login.html",
+				"wcp": "https://test1.wellnesscoachingnow.com/content/wc/en/login.html",
+				"hsid":
+					"https://healthsafeid-test1.optum.com/content/en/healthsafeid/public/logout.html",
+				"laww": "https://lawp-smsc-tst2.optum.com/public/login/logoff.asp",
+				"notes":
+					"https://tst-healthenotes.uhc.com/content/healthenotes/en/public/landing.html"
+			},
+			"uat": {
+				"uhcWcp":
+					"https://stage1.myuhc.wellnesscoachingnow.com/content/wc/en/login.html",
+				"wcp":
+					"https://stage1.wellnesscoachingnow.com/content/wc/en/login.html",
+				"hsid":
+					"https://healthsafeid-stage1.optum.com/content/en/healthsafeid/public/logout.html",
+				"laww": "https://lawp-smsc-ua.optum.com/public/login/logoff.asp",
+				"notes":
+					"https://stg-healthenotes.myoptum.com/content/healthenotes/en/public/landing.html"
+			},
+			"stage": {
+				"uhcWcp":
+					"https://stage1.myuhc.wellnesscoachingnow.com/content/wc/en/login.html",
+				"wcp":
+					"https://stage1.wellnesscoachingnow.com/content/wc/en/login.html",
+				"hsid":
+					"https://healthsafeid-stage1.optum.com/content/en/healthsafeid/public/logout.html",
+				"laww":
+					"https://sr-smsc-stg.liveandworkwell.com/content/en/public/sign-out.html",
+				"notes":
+					"https://stg-healthenotes.myoptum.com/content/healthenotes/en/public/landing.html"
+			},
+			"production": {
+				"uhcWcp":
+					"https://www.myuhc.wellnesscoachingnow.com/content/wc/en/login.html",
+				"wcpWWW":
+					"https://www.liveandworkwell.com/content/en/public/sign-out.html",
+				"lawwWWW":
+					"https://healthenotes.myoptum.com/content/healthenotes/en/public/landing.html",
+				"wcp": "https://myuhc.wellnesscoachingnow.com/content/wc/en/login.html",
+				"hsid":
+					"https://healthsafeid.optum.com/content/en/healthsafeid/public/logout.html",
+				"laww": "https://liveandworkwell.com/content/en/public/sign-out.html",
+				"uhcWcpWWW": "https://www.optumrx.com/public/logout",
+				"notes": "https://wellnesscoachingnow.com/content/wc/en/login.html"
+			}
+		}
+	}
+}

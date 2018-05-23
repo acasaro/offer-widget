@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component should render a card component 1`] = `
+<div
+  className="card "
+/>
+`;

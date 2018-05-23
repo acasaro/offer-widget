@@ -1,0 +1,47 @@
+// Imports
+@import 'partials/variables';
+@import 'partials/font-import';
+@import 'partials/mixins';
+@import 'partials/buttons';
+@import 'partials/icons';
+
+myoptum-offers {
+	font-size: 14px;
+	font-family: 'Frutiger';
+	color: $body-font-color;
+	line-height: 1.42857;
+	background-color: #fff;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+myoptum-offers {
+	* {
+		box-sizing: inherit;
+	}
+
+	div,
+	pre,
+	form,
+	fieldset,
+	p,
+	blockquote,
+	th,
+	td {
+		font-size: 16px;
+		font-family: 'Frutiger';
+		color: #282a2e;
+	}
+
+	p {
+		margin: 0 0 5px;
+	}
+
+	a {
+		color: $primary-color;
+		text-decoration: none;
+	}
+}

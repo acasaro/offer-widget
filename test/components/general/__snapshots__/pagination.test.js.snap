@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Component should render a pagination component 1`] = `
+<Pagination
+  activePage="test1"
+  handlePageChange={[Function]}
+  pages={
+    Array [
+      Object {
+        "key": "test1",
+      },
+      Object {
+        "key": "test2",
+      },
+    ]
+  }
+>
+  <div
+    className="pagination"
+  >
+    <Page
+      handlePageChange={[Function]}
+      isActive={true}
+      key="test1"
+      page={
+        Object {
+          "key": "test1",
+        }
+      }
+    >
+      <button
+        className="button paging-circle is-active"
+        onClick={[Function]}
+      />
+    </Page>
+    <Page
+      handlePageChange={[Function]}
+      isActive={false}
+      key="test2"
+      page={
+        Object {
+          "key": "test2",
+        }
+      }
+    >
+      <button
+        className="button paging-circle"
+        onClick={[Function]}
+      />
+    </Page>
+  </div>
+</Pagination>
+`;
+
+exports[`Pagination Component should still render a pagination component with missing props 1`] = `
+<div
+  className="pagination"
+/>
+`;

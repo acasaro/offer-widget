@@ -1,0 +1,78 @@
+{
+	"offers": [
+		{
+			"order": "1",
+			"blacklistTime": "7.0",
+			"offerCode": "00001029122",
+			"interestedLink": "https://this-is-a-test-link.com",
+			"description": "Compare pharmacy pricing and see if lower-cost medications are available to you.",
+			"title": "You may be able to save on your prescriptions.",
+			"type": "Pharmacy_LCA",
+			"category": "Pharmacy",
+			"treatmentCode": "151b.2834.3d8fdad6.ffffffffa30c361e",
+			"expirationDate": "Sun Jan 21 13:38:00 CST 2018",
+			"opportunityTypeCd": "SUMLCA",
+			"memberId": "1234",
+			"template": {
+				"title": "You may be able to save on your prescriptions.",
+				"content": "Compare pharmacy pricing and see if lower-cost medications are available to you.",
+				"image": "",
+				"icon": "icon-pharmacy",
+				"tellMeMore": {
+					"title": "View Details",
+					"link": "https://chp-stage.Optumrx.com/secure/my-medicine-cabinet",
+					"linkIcon": "newTab",
+					"openNewWindow": true
+				},
+				"notInterested": {
+					"title": "Not Interested",
+					"link": "",
+					"linkIcon": "caret",
+					"openNewWindow": true
+				},
+				"modal": {
+					"title": "You may be able to save on your prescriptions.",
+					"content": "9999999999",
+					"cta": "View Details",
+					"ctaLink": "https://chp-stage.Optumrx.com/secure/my-medicine-cabinet",
+					"dismiss": "Close"
+				}
+			}
+		},
+		{
+			"order": "2",
+			"blacklistTime": "7.0",
+			"offerCode": "00001029322",
+			"interestedLink": "https://this-is-a-test-link.com",
+			"description": "Looks like you could save time and possibly money when you switch to home delivery.",
+			"title": "Save time with home delivery.",
+			"type": "Pharmacy_RetailMailOrder",
+			"category": "Pharmacy",
+			"treatmentCode": "151b.2836.107b902a.ffffffffb47ec2d2",
+			"expirationDate": "Sun Jan 21 13:38:00 CST 2018",
+			"opportunityTypeCd": "SUMLCA",
+			"memberId": "1234",
+			"template": {
+				"title": "Save time with home delivery.",
+				"content": "Looks like you could save time and possibly money when you switch to home delivery.",
+				"image": "https://myoptum-stage.optum.com/content/dam/OptumDashboard/ad-box/logos/OPTUMRx_RGB.png",
+				"icon": "",
+				"tellMeMore": {
+					"title": "View Details",
+					"link": "https://chp-stage.Optumrx.com/secure/my-medicine-cabinet",
+					"linkIcon": "newTab",
+					"openNewWindow": true
+				},
+				"notInterested": {
+					"title": "Not Interested",
+					"link": "",
+					"linkIcon": "caret",
+					"openNewWindow": true
+				}
+			}
+		}
+	],
+	"options": {
+		"displayPagination": true
+	}
+}

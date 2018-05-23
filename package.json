@@ -1,0 +1,112 @@
+{
+	"name": "myoptum-libraries",
+	"version": "1.0.0",
+	"description": "MyOptum libraries for external consumption (Offer Management, etc.)",
+	"main": "index.js",
+	"author": "Connor Klausing and Josh Slate",
+	"scripts": {
+		"start": "export NODE_ENV=development || set NODE_ENV=development && webpack-dev-server --progress --hot --config webpack.dev-server.config.js",
+		"build": "rimraf dist/ && npm run build:offers && npm run build:offers:dev",
+		"build:offers": "export NODE_ENV=production || set NODE_ENV=production && webpack --progress --config webpack.offers.config.js",
+		"build:offers:dev": "export NODE_ENV=development || set NODE_ENV=development && webpack --progress --config webpack.offers-dev.config.js",
+		"bundle-test": "http-server dist/ -p 8000",
+		"format": "prettier --write --single-quote --print-width=120 --parser=flow --trailing-comma es5 --tab-width=2 \"src/!(public)/**/*.{js,jsx}\"",
+		"test": "jest --watch",
+		"test:all": "jest",
+		"test:update": "jest -u",
+		"lint:fix": "node ./node_modules/eslint/bin/eslint.js --ext .js \"src/\" --fix",
+		"precommit": "lint-staged",
+		"prepush": "npm run test:all"
+	},
+	"lint-staged": {
+		"*.{js,css}": [
+			"prettier --write --single-quote --print-width=120 --parser=flow --trailing-comma es5 --tab-width=2",
+			"git add"
+		]
+	},
+	"jest": {
+		"testEnvironment": "jsdom",
+		"setupFiles": [
+			"./test-setup/shims.js",
+			"./test-setup/config.js"
+		],
+		"moduleNameMapper": {
+			"^.+\\.(css|less|scss)$": "identity-obj-proxy"
+		},
+		"snapshotSerializers": [
+			"enzyme-to-json/serializer"
+		],
+		"coverageThreshold": {
+			"global": {
+				"branches": 95,
+				"functions": 95,
+				"lines": 95,
+				"statements": 95
+			}
+		},
+		"collectCoverage": true,
+		"collectCoverageFrom": [
+			"src/**/*.js",
+			"!**/public/**",
+			"!src/components/cache-id-changer/**/*.js",
+			"!src/index.js",
+			"!src/index.offers.js"
+		]
+	},
+	"devDependencies": {
+		"babel-core": "^6.25.0",
+		"babel-eslint": "^7.2.3",
+		"babel-jest": "^21.2.0",
+		"babel-loader": "^7.1.1",
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.24.1",
+		"babel-preset-stage-2": "^6.24.1",
+		"copy-webpack-plugin": "^4.2.0",
+		"css-loader": "^0.28.4",
+		"enzyme": "3.2.0",
+		"enzyme-adapter-react-16": "1.1.0",
+		"enzyme-to-json": "3.0.0",
+		"eslint": "3.19.0",
+		"eslint-config-airbnb": "15.0.1",
+		"eslint-config-airbnb-base": "^11.2.0",
+		"eslint-config-prettier": "^2.4.0",
+		"eslint-plugin-import": "2.7.0",
+		"eslint-plugin-jest": "^20.0.3",
+		"eslint-plugin-jsx-a11y": "5.0.1",
+		"eslint-plugin-prettier": "^2.2.0",
+		"eslint-plugin-react": "7.1.0",
+		"file-loader": "^1.1.5",
+		"html-loader": "^0.5.1",
+		"html-webpack-plugin": "^2.30.1",
+		"http-server": "^0.10.0",
+		"husky": "^0.14.3",
+		"identity-obj-proxy": "^3.0.0",
+		"jest": "^21.2.1",
+		"lint-staged": "^6.0.0",
+		"node-sass": "^4.5.3",
+		"prettier": "^1.9.2",
+		"react-hot-loader": "3.0.0-beta.3",
+		"react-test-renderer": "^16.0.0",
+		"sass-loader": "^6.0.6",
+		"style-loader": "^0.18.2",
+		"url-loader": "^0.6.2",
+		"webpack": "3.8.1",
+		"webpack-bundle-size-analyzer": "^2.7.0",
+		"webpack-dev-server": "2.9.4",
+		"webpack-merge": "^4.1.0"
+	},
+	"dependencies": {
+		"axios": "0.17.1",
+		"babel-polyfill": "^6.26.0",
+		"babel-runtime": "^6.26.0",
+		"classnames": "^2.2.5",
+		"lodash": "^4.17.4",
+		"npm": "^5.7.1",
+		"path": "^0.12.7",
+		"prop-types": "^15.5.10",
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"sonarqube-scanner": "^2.0.2"
+	}
+}

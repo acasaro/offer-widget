@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component should render a modal component 1`] = `
+<div
+  className="modal"
+>
+  <div
+    className="modal-container"
+  >
+    <div
+      className="modal-content"
+      role="dialog"
+    >
+      <AnalyticsLink
+        analyticsData={
+          Object {
+            "linkName": undefined,
+            "offerName": undefined,
+            "offerType": undefined,
+            "portal": undefined,
+          }
+        }
+        className="button button-close close"
+        onClick={[Function]}
+        role="button"
+        type="offerLinkTrackingUi"
+      />
+      <div
+        className="modal-header"
+      />
+      <div
+        className="modal-body"
+      />
+      <br />
+      <AnalyticsLink
+        analyticsData={
+          Object {
+            "linkName": undefined,
+            "offerName": undefined,
+            "offerType": undefined,
+            "portal": undefined,
+          }
+        }
+        className="button button-primary"
+        onClick={[Function]}
+        role="button"
+        type="offerLinkTrackingUi"
+      />
+    </div>
+  </div>
+</div>
+`;

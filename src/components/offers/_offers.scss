@@ -1,0 +1,107 @@
+@import '../../public/stylesheets/partials/mixins';
+
+.offers {
+	box-sizing: border-box;
+	.offer-card {
+		display: flex;
+		flex-wrap: nowrap;
+		border-bottom: 1px solid #d8d8d8;
+		margin-top: 0;
+		flex-direction: column;
+
+		@include bp(md) {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__title {
+			font-size: 18px;
+			font-weight: bold;
+			margin: 0 0 20px 0;
+			@include bp(md) {
+				margin: 10px 0;
+			}
+		}
+
+		&__description {
+			margin: 0 0 20px 0;
+			@include bp(md) {
+				margin: 10px 0 0 0;
+			}
+		}
+
+		&__text {
+			flex: 1 0 auto;
+
+			@include bp(md) {
+				flex: 1 10 auto;
+			}
+
+			&.centered {
+				text-align: center;
+				@include bp(md) {
+					text-align: left;
+				}
+			}
+		}
+
+		.offer-image {
+			max-width: 115px;
+			margin-right: 20px;
+		}
+
+		.flex-content {
+			align-self: center;
+		}
+
+		.button-col {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex: 0 0 auto;
+
+			@include bp(md) {
+				margin-left: 20px;
+			}
+
+			.button {
+				display: block;
+				width: 100%;
+				&:first-child {
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+		.icon-container {
+			align-self: flex-start;
+			margin-bottom: 20px;
+
+			@include bp(md) {
+				align-self: center;
+				margin: 0 20px 0 0;
+			}
+
+			&.centered {
+				align-self: center;
+			}
+		}
+
+		.icon-circle {
+			background-color: orange;
+			width: 75px;
+			height: 75px;
+			border-radius: 50%;
+			display: table;
+			text-align: center;
+
+			.icon {
+				color: #fff;
+				display: table-cell;
+				vertical-align: middle;
+				font-size: 2.5rem;
+			}
+		}
+	}
+}

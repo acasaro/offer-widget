@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component should render a tooltip 1`] = `
+<div
+  className="tooltip-container"
+>
+  <a
+    aria-controls="component_p90e9b"
+    aria-expanded={false}
+    aria-label="Informational Tooltip for undefined"
+    className="button button-circle button-tooltip"
+    href="#"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    role="button"
+  >
+    <span
+      aria-hidden="true"
+    >
+      i
+    </span>
+  </a>
+  <div
+    aria-hidden={true}
+    className="tooltip-content"
+    id="component_p90e9b"
+    role="region"
+  >
+    <div>
+      <p>
+        This is a test child node
+      </p>
+    </div>
+  </div>
+</div>
+`;
